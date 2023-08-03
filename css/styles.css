@@ -1,0 +1,171 @@
+:root {
+  --primary-black-color: #2e2f42;
+  --primary-paragraf-color: #434455;
+  --primary-color: #4d5ae5;
+  --primary-blue-color: #404bbf;
+  --primary-background-color: #f4f4fd;
+  --primary-color-white: #ffffff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-paragraf-color);
+  background-color: var(--primary-color-white);
+}
+main {
+  letter-spacing: 0.02em;
+}
+.header-name {
+  font-family: 'Raleway', sans-serif;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link {
+  text-decoration: none;
+}
+.header-name-span {
+  color: var(--primary-black-color);
+}
+.list {
+  list-style: none;
+}
+.header-address {
+  font-style: normal;
+}
+.header-studio-portfolio-contact {
+  color: var(--primary-black-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-studio-portfolio-contact:hover,
+.header-studio-portfolio-contact:focus {
+  color: var(--primary-blue-color);
+}
+.header-commun {
+  color: var(--primary-paragraf-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-commun:hover,
+.header-commun:focus {
+  color: var(--primary-blue-color);
+}
+.main-background-firt {
+  background-color: var(--primary-black-color);
+}
+.main-name {
+  color: var(--primary-color-white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.main-button {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color-white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: var(--primary-color);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--primary-blue-color);
+}
+.main-background-second {
+  background-color: var(--primary-background-color);
+}
+
+.main-benefits-name {
+  color: var(--primary-black-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.main-benefits-paragrafs {
+  color: var(--primary-paragraf-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.main-photos {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--primary-black-color);
+  letter-spacing: 0.02em;
+}
+.main-stuff-name {
+  color: var(--primary-black-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: var(--primary-color-white);
+}
+.main-stuff-job {
+  color: var(--primary-paragraf-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer-background {
+  background-color: var(--primary-black-color);
+}
+.footer-text {
+  color: var(--primary-background-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-name-footer {
+  color: var(--primary-background-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.portfolio-main-button {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--primary-background-color);
+  cursor: pointer;
+}
+.portfolio-main-button:hover,
+.portfolio-main-button:focus {
+  color: var(--primary-color-white);
+  background-color: var(--primary-blue-color);
+}
+.portfolio-main-stuff-name {
+  color: var(--primary-black-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-main-stuff-job {
+  color: var(--primary-paragraf-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.portfolio-main-list {
+  list-style: none;
+}
+.image {
+  text-decoration: none;
+}
+.backround {
+  background-color: var(--primary-color-white);
+}
