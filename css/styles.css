@@ -14,13 +14,18 @@
 img {
   display: block;
 }
-/* .container {
+.container {
   max-width: 1158px;
-  padding: 0 15px;
-  margin-left: 15px;
-  margin-right: 15px;
   margin: 0 auto;
-} */
+  padding: 0 15px;
+}
+.box {
+  display: flex;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-paragraf-color);
@@ -37,12 +42,15 @@ main {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 25px 0 25px 76px;
+  margin: 76px;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .first-box {
   width: 261px;
   height: 24px;
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 40px;
   padding: 0;
@@ -60,6 +68,8 @@ main {
 }
 .header-address {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 .header-studio-portfolio-contact {
   color: var(--primary-black-color);
@@ -67,6 +77,7 @@ main {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .header-studio-portfolio-contact:hover,
 .header-studio-portfolio-contact:focus {
@@ -93,6 +104,7 @@ main {
 }
 .main-background-firt {
   background-color: var(--primary-black-color);
+  padding: 188px 0;
 }
 .main-name {
   color: var(--primary-color-white);
@@ -102,6 +114,7 @@ main {
   letter-spacing: 0.02em;
   padding: 188px 472px 292px 472px;
   margin: 0;
+  max-width: 496px;
 }
 .box-botton {
   justify-content: center;
@@ -115,12 +128,11 @@ main {
   background-color: var(--primary-color);
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   border-radius: 4px;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  margin-right: auto;
-  margin-left: auto;
 }
 .main-button:hover,
 .main-button:focus {
@@ -346,4 +358,11 @@ main {
   width: 1440px;
   height: 312px;
   flex-shrink: 0;
+}
+.footer {
+  padding: 100px 0;
+}
+.foot-name {
+  display: inline-block;
+  margin-bottom: 16px;
 }
