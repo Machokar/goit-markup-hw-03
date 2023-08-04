@@ -232,7 +232,6 @@ main {
 }
 .backround {
   background-color: var(--primary-color-white);
-  display: flex;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -253,7 +252,6 @@ main {
   gap: 24px;
 }
 .box-two-one {
-  display: flex;
   width: calc((100% - 72px) / 4);
 }
 .box-three {
@@ -268,8 +266,6 @@ main {
 }
 .box-three-one {
   width: calc((100% - 48px) / 3);
-  padding: 0;
-  margin: 0;
 }
 .box {
   width: 1440px;
