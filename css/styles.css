@@ -232,6 +232,8 @@ main {
 }
 .backround {
   background-color: var(--primary-color-white);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .visually-hidden {
   position: absolute;
@@ -250,9 +252,7 @@ main {
   gap: 24px;
 }
 .box-two-one {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  padding: 0;
-  margin: 0;
+  width: calc((100% - 72px) / 4);
 }
 .box-three {
   display: flex;
@@ -284,12 +284,6 @@ main {
   display: flex;
   gap: 24px;
   margin-right: 24px;
-}
-.box-four-one {
-  flex-basis: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-  margin: 0;
-  padding: 0;
 }
 .port-box {
   display: inline-flex;
