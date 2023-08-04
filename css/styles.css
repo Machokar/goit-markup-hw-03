@@ -250,7 +250,7 @@ main {
   gap: 24px;
 }
 .box-two-one {
-  flex-basis: calc((100% - 72px));
+  width: calc((100% - 72px) / 4);
 }
 .box-three {
   display: flex;
@@ -282,9 +282,8 @@ main {
   margin-right: 24px;
 }
 .box-four-one {
-  padding: 32px 0;
-  width: calc((100% - 72px));
-  border-radius: 0px opx 4px 4px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .port-box {
   display: inline-flex;
