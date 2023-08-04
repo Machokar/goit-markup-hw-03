@@ -245,15 +245,14 @@ main {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.box-2 {
+.box-two {
   display: flex;
   gap: 24px;
 }
-.box-2-1 {
-  display: flex;
-  width: calc((100% - 72px) / 4);
+.box-two-one {
+  flex-basis: calc((100% - 72px));
 }
-.box-3 {
+.box-three {
   display: flex;
   padding: 0;
   align-items: center;
@@ -263,7 +262,7 @@ main {
 
   margin-top: 72px;
 }
-.box-3-1 {
+.box-three-one {
   width: calc((100% - 48px) / 3);
 }
 .box {
@@ -277,13 +276,15 @@ main {
   display: flex;
   justify-content: flex-end;
 }
-.box-4 {
+.box-four {
   display: flex;
   gap: 24px;
   margin-right: 24px;
 }
-.box-4-1 {
+.box-four-one {
   padding: 32px 0;
+  width: calc((100% - 72px));
+  border-radius: 0px opx 4px 4px;
 }
 .port-box {
   display: inline-flex;
@@ -336,11 +337,11 @@ main {
   display: flex;
   gap: 40px;
 }
-.section-2 {
+.section-two {
   padding: 120px 0;
 }
 /* section-3 */
-.section-3 {
+.section-three {
   padding-bottom: 120px;
 }
 /* - */
