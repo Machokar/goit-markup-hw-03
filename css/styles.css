@@ -11,9 +11,6 @@
 *::after {
   box-sizing: border-box;
 }
-img {
-  display: block;
-}
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -200,16 +197,14 @@ main {
   letter-spacing: 0.04em;
   background-color: var(--primary-background-color);
   cursor: pointer;
-  display: flex;
   padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
+  border: 1px solid var(--primary-background-color);
 }
 .portfolio-main-button:hover,
 .portfolio-main-button:focus {
   color: var(--primary-color-white);
   background-color: var(--primary-blue-color);
+  border: 1px solid transparent;
 }
 .portfolio-main-stuff-name {
   color: var(--primary-black-color);
@@ -225,7 +220,13 @@ main {
   letter-spacing: 0.02em;
 }
 .portfolio-main-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .image {
   text-decoration: none;
@@ -295,22 +296,12 @@ main {
   margin-right: 24px;
 }
 .port-box {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 24px;
-  margin-right: 427px;
-  margin-left: 427px;
+  padding: 32px 16px;
+  border: 1px solid var(--primary-background-color);
+  border-top: none;
+  margin-bottom: 8px;
 }
-.por-button {
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
-  border-radius: 4px;
-  background: var(--ocean, #404bbf);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-.port-box-2 {
+.port-box-two {
   display: flex;
   margin: 0;
   padding: 0;
@@ -318,16 +309,8 @@ main {
   margin-left: 156px;
   margin-top: 48px;
 }
-.port-card1 {
-  display: flex;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border: 1px solid var(--primary-background-color);
-  background: var(--primary-color-white);
+.port-card-one {
+  width: calc((100% - 48) / 3);
 }
 .foot-back {
   width: 1440px;
@@ -355,4 +338,11 @@ main {
 /* - */
 .name-prof {
   padding: 32px 0;
+}
+.port-sec {
+  padding: 96px 0 120px 0;
+}
+.por-bot {
+  padding: 12px 24px;
+  border: 1px solid var(--primary-background-color);
 }
