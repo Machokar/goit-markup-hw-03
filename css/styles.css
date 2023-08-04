@@ -250,9 +250,9 @@ main {
   gap: 24px;
 }
 .box-two-one {
+  flex-basis: calc((100% - 3 * 24px) / 4);
   padding: 0;
   margin: 0;
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .box-three {
   display: flex;
@@ -265,9 +265,9 @@ main {
   margin-top: 72px;
 }
 .box-three-one {
+  width: calc((100% - 48px) / 3);
   padding: 0;
   margin: 0;
-  width: calc((100% - 48px) / 3);
 }
 .box {
   width: 1440px;
@@ -286,10 +286,10 @@ main {
   margin-right: 24px;
 }
 .box-four-one {
-  margin: 0;
-  padding: 0;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  margin: 0;
+  padding: 0;
 }
 .port-box {
   display: inline-flex;
