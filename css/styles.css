@@ -56,7 +56,7 @@ main {
   text-transform: uppercase;
   margin-right: 76px;
 }
-header {
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
 .first-box {
