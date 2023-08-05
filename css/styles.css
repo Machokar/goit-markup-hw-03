@@ -28,7 +28,6 @@ img {
 .nav {
   display: flex;
   align-items: center;
-  padding: 25px 0 25px;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -88,6 +87,7 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 .header-studio-portfolio-contact:hover,
 .header-studio-portfolio-contact:focus {
@@ -291,7 +291,6 @@ main {
   align-items: center;
   gap: 24px;
   margin: 0;
-  margin-top: 72px;
 }
 .box-three-one {
   width: calc((100% - 48px) / 3);
