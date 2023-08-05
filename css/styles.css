@@ -22,15 +22,25 @@ img {
 }
 .box {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav {
   display: flex;
   align-items: center;
+  padding: 25px 0 25px;
 }
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-paragraf-color);
   background-color: var(--primary-color-white);
+}
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
 }
 main {
   letter-spacing: 0.02em;
@@ -45,14 +55,14 @@ main {
   text-transform: uppercase;
   margin-right: 76px;
 }
-.header {
+header {
   border-bottom: 1px solid #e7e9fc;
 }
 .first-box {
   display: flex;
   gap: 40px;
   margin: 0;
-  margin-right: 40px;
+  justify-content: space-between;
 }
 .link {
   text-decoration: none;
@@ -69,11 +79,6 @@ main {
 .telefon-email {
   display: flex;
   gap: 40px;
-  margin: 0;
-  padding: 0;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  padding-left: 250px;
 }
 .header-studio-portfolio-contact {
   color: var(--primary-black-color);
@@ -92,6 +97,7 @@ main {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
 }
 .header-commun:hover,
 .header-commun:focus {
@@ -195,6 +201,8 @@ main {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
+  max-height: 72px;
 }
 .header-name-footer {
   color: var(--primary-background-color);
@@ -252,9 +260,6 @@ main {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
   max-width: 264px;
   width: calc((100% - 72px) / 4);
 }
@@ -285,19 +290,13 @@ main {
   align-items: center;
   gap: 24px;
   margin: 0;
-  margin-right: 24px;
-
   margin-top: 72px;
 }
 .box-three-one {
   width: calc((100% - 48px) / 3);
 }
 .box {
-  width: 1440px;
-  height: 72px;
-  flex-shrink: 0;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
+  background: var(--primary-color-white);
 }
 .box1 {
   display: flex;
@@ -308,7 +307,6 @@ main {
   padding: 0;
   gap: 24px;
   margin: 0;
-  margin-right: 24px;
 }
 .port-box {
   display: flex;
@@ -320,7 +318,6 @@ main {
   padding: 32px 16px;
   border: 1px solid var(--primary-por);
   border-top: none;
-  margin-bottom: 8px;
 }
 .port-card-one {
   width: calc((100% - 48px) / 3);
@@ -336,6 +333,13 @@ main {
 .foot-name {
   display: inline-block;
   margin-bottom: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .cumnt {
   display: flex;
